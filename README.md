@@ -9,19 +9,14 @@ This is a simple notes app built with React and Django.
 1. Clone the repository
 ```
 git clone https://github.com/Hitstar53/notesapp.git
-```
-2. Create a virtual environment and activate it
-```
-virtualenv venv
-source venv/bin/activate
-```
+
 3. build docker file 
 ```
 sudo docker build -t django_app .
 ```
 4. Run the Container 
 ```
-docker run -p 5000:5000  django_app
+docker run -p 8000:8000  django_app
 ```
 
 
